@@ -244,7 +244,8 @@ header nav .nav-sections ul > li > ul > li {
     width: 200px;
     top: 150%;
     padding: 16px;
-    background-color: var(--light-color);
+    background-color: #000000; /* Changed from var(--light-color) */
+    color: #ffffff; /* Added for readability */
     white-space: initial;
     z-index: 1;
   }
@@ -322,4 +323,14 @@ header .breadcrumbs ol li[aria-current] {
     max-width: 1264px;
     padding: 0 32px;
   }
+}
+
+/* Override dropdown to black */
+header nav .nav-sections .default-content-wrapper > ul > li[aria-expanded='true'] > ul {
+  background-color: #000000 !important;
+  color: #ffffff !important;
+}
+
+header nav .nav-sections .default-content-wrapper > ul > li > ul::before {
+  border-bottom: 8px solid #000000 !important;
 }
