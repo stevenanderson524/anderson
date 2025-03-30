@@ -327,3 +327,14 @@ header .breadcrumbs ol li[aria-current] {
     padding: 0 32px;
   }
 }
+
+/* Broad selector to force dropdown to black */
+header .nav-sections ul ul {
+  background-color: #000000 !important;
+  color: #ffffff !important;
+}
+
+/* Update the triangle */
+header .nav-sections ul ul::before {
+  border-bottom: 8px solid #000000 !important;
+}
