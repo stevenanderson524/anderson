@@ -1,3 +1,4 @@
+
 /* header and nav layout */
 header .nav-wrapper {
   background-color: var(--background-color);
@@ -47,6 +48,7 @@ header nav[aria-expanded='true'] {
 
 header nav p {
   margin: 0;
+  
   /* line-height: 1; BOILERPLATE DOESN'T HAVE a P tag in header, */
 }
 
@@ -261,21 +263,6 @@ header nav .nav-sections ul > li > ul > li {
 
   header nav .nav-sections .default-content-wrapper > ul > li > ul > li {
     padding: 8px 0;
-  }
-
-  /* Added styles for black dropdown */
-  header nav .nav-sections .default-content-wrapper > ul > li[aria-expanded='true'] > ul {
-    background-color: #000000 !important;
-    color: #ffffff;
-  }
-
-  header nav .nav-sections .default-content-wrapper > ul > li > ul::before {
-    border-bottom: 8px solid #000000;
-  }
-
-  header nav .nav-sections .default-content-wrapper > ul > li > ul > li:hover {
-    background-color: #333333;
-    color: #ffffff;
   }
 }
 
