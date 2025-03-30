@@ -220,7 +220,7 @@ button.secondary {
 main img {
   max-width: 100%;
   width: auto;
-  height: auto;
+  height: 50vh;
 }
 
 .icon {
