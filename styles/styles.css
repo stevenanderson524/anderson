@@ -12,7 +12,7 @@
 
 :root {
   /* colors */
-  --background-color: black;
+  --background-color: black; !important;
   --light-color: #f8f8f8;
   --dark-color: #505050;
   --text-color: white;
@@ -265,4 +265,8 @@ main .section.highlight {
 
 main * {
   color: var(--text-color) !important;
+}
+
+html, body, header, footer, main {
+  background-color: var(--background-color) !important;  /* Black for all */
 }
