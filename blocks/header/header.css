@@ -323,3 +323,20 @@ header .breadcrumbs ol li[aria-current] {
     padding: 0 32px;
   }
 }
+
+/* Force black dropdown menu */
+header nav .nav-sections .default-content-wrapper > ul > li[aria-expanded='true'] > ul {
+  background-color: #000000 !important;
+  color: #ffffff !important;
+}
+
+/* Update the triangle */
+header nav .nav-sections .default-content-wrapper > ul > li > ul::before {
+  border-bottom: 8px solid #000000 !important;
+}
+
+/* Optional hover effect */
+header nav .nav-sections .default-content-wrapper > ul > li > ul > li:hover {
+  background-color: #333333 !important;
+  color: #ffffff !important;
+}
