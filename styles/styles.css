@@ -270,3 +270,13 @@ main * {
 html, body, header, footer, main {
   background-color: var(--background-color) !important;  /* Black for all */
 }
+
+/* Force dropdown to black */
+header .nav-sections ul ul {
+  background-color: #000000 !important;
+  color: #ffffff !important;
+}
+
+header .nav-sections ul ul::before {
+  border-bottom: 8px solid #000000 !important;
+}
