@@ -321,10 +321,3 @@ header .breadcrumbs ol li[aria-current] {
     max-width: 1264px;
     padding: 0 32px;
   }
-  
-}
-
-header nav .nav-sections .default-content-wrapper > ul > li[aria-expanded='true'] > ul {
-  background-color: #000000 !important; /* Sets dropdown background to black */
-  color: #ffffff; /* Ensures text is white for readability */
-}
